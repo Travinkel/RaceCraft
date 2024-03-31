@@ -27,6 +27,6 @@
     "packs": [],
     "url": "https://github.com/travinkel/racecraft",
     "manifest": "https://raw.githubusercontent.com/Travinkel/RaceCraft/main/module.json",
-    "download": "https://yourhosting.com/path/to/racecraft.zip"
+    "download": "https://github.com/Travinkel/RaceCraft/releases/download/v1.0.1/racecraft-v1.0.1.zip"
   }
   
