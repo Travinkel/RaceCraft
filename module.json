@@ -23,7 +23,7 @@
         "name": "dnd5e",
         "manifest": "https://foundryvtt.com/api/systems/dnd5e",
         "type": "system",
-        "version": "compatible-version-here"
+        "version": "3.0.4"
     }
 ]
 }
