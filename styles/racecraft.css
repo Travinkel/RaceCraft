@@ -1,0 +1,123 @@
+/* FILEPATH: /D:/Repo/FoundryVTT/RaceCraft/styles/racecraft.css */
+
+/* Scope global styles within the racecraft-ui class to avoid affecting other parts of Foundry VTT */
+.racecraft-ui body, 
+.racecraft-ui h1, .racecraft-ui h2, .racecraft-ui h3, 
+.racecraft-ui p, .racecraft-ui a {
+    font-family: "Belwe Medium", Arial, sans-serif;
+    background-color: #0f0f0f; /* Consider moving or removing this if 'body' is not directly targeted */
+    color: #ffffff;
+}
+
+.racecraft-ui h1, .racecraft-ui h2, .racecraft-ui h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.racecraft-ui h1 { font-size: 24px; }
+.racecraft-ui h2 { font-size: 20px; }
+.racecraft-ui h3 { font-size: 16px; }
+
+.racecraft-ui p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.racecraft-ui a {
+    color: #ffdf00; /* Adjusted for better theme consistency */
+    text-decoration: none;
+}
+
+.racecraft-ui a:hover {
+    color: #d4af37; /* A lighter gold for hover, more in-line with Warcraft 3 aesthetics */
+}
+
+.racecraft-ui h1, .racecraft-ui h2, .racecraft-ui h3, .racecraft-ui a {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Basic UI Background */
+.racecraft-ui {
+    background-color: #1a1a1a;
+    color: #e4e4e4;
+    font-family: "Belwe Medium", sans-serif;
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 8px; /* Slightly rounded corners for the main UI panel */
+    box-shadow: 0 0 10px #d4af37; /* Soft glow for depth */
+}
+
+/* Trait Item Styling */
+.trait-item {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #a9d271;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.trait-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.trait-item label {
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.trait-item:hover {
+    text-shadow: 0 0 8px #ffdf00; /* Adds a glow effect on hover */
+    background-color: #464;
+}
+
+.trait-item:active {
+    transform: scale(0.98); /* Slightly shrink the item when clicked */
+    transition: transform 0.1s ease; /* Smooth transition for the shrink effect */
+}
+
+/* Balance Score Display */
+#racecraft-balance-score {
+    color: #ffdf00;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px; /* Padding inside the button */
+    background-color: #555; /* Dark grey */
+    color: #ffdf00; /* Gold */
+    border: 2px solid #d4af37; /* Gold border */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Cursor changes to a hand on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #777; /* Slightly lighter grey on hover */
+}
+
+/* Scrollbar Styling for Webkit browsers like Chrome and Safari */
+.racecraft-ui::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+}
+
+.racecraft-ui::-webkit-scrollbar-track {
+    background: #333; /* Colour of the track */
+}
+
+.racecraft-ui::-webkit-scrollbar-thumb {
+    background-color: #d4af37; /* Colour of the scroll thumb */
+    border-radius: 20px; /* Roundness of the scroll thumb */
+    border: 3px solid #d4af37; /* Colour of the scroll thumb border */
+}
+
+.racecraft-ui::-webkit-scrollbar-thumb:hover {
+    background-color: #e6c85e; /* Colour of the scroll thumb on hover */
+}

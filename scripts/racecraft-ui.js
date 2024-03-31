@@ -1,5 +1,7 @@
-class RaceCraftUI extends FormApplication{
-    static get defaultOptions(){
+// Optimized JavaScript code
+
+class RaceCraftUI extends FormApplication {
+    static get defaultOptions() {
         return mergeObjects(super.defaultOptions, {
             id: "racecraft-ui",
             title: "RaceCraft",
@@ -8,23 +10,41 @@ class RaceCraftUI extends FormApplication{
             height: 600,
             resizable: true,
         });
+    }
 
-    // Add methods and properties to the RaceCraftUI class
+    async getData() {
+        const data = await super.getData();
+        data.races = await loadRaces();
+        return data;
+    }
+
+    async toggleTraitSelection(trait) {
+        // Logic to add/remove the trait from the selection
+        // This could involve updating an array of selected traits and then updating the UI
+
+        this.updateSelectedTraitsUI();
+        this.updateBalanceScore();
+    }
+
+    updateSelectedTraitsUI() {
+        // Logic to update the UI to reflect the selected traits
+    }
+
+    async activateListeners(html) {
+        super.activateListeners(html);
+
+        const traitsList = html.find("#racraft-traits-list");
+        this.racesData.features.forEach(trait => {
+            // Create DOM elements for each trait
+            const traitElement = document.createElement("li");
+            // Event listener for trait selection
+            traitElement.addEventListener('click', () => this.toggleTraitSelection(trait));
+            traitsList.append(traitElement);
+        });
+
+        // Event listener for trait item click
+        html.find('.trait-item').click(event => {
+            this.toggleTraitSelection(event);
+        });
+    }
 }
-
-async getData(){
-    const data = await super.getData();
-    data.races = await loadRaces();
-    return data;
-}
-
-async toggleTraitSelection(event){
-    const li = event.currentTarget;
-    li.classList.toggle("active");
-}
-
-async activeListeners(html){
-    super.activateListeners(html);
-    html.find('.trait-item').click(event => {
-        this.toggleTraitSelection(event);
-})};}

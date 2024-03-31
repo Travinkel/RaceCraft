@@ -1,0 +1,13 @@
+<!-- FILEPATH: /D:/Repo/FoundryVTT/RaceCraft/templates/racecraft-sheet.html -->
+
+<div class="custom-tab">
+    <h2>{{racecraft.tabTitle}}</h2>
+    {{#each racecraft-traits as |trait|}}
+    <div class="trait-item">
+        <input type="checkbox" id="{{trait.id}}" {{if trait.selected "checked"}}>
+        <label for="{{trait.name}}">{{trait.name}}</label>
+    </div>
+    {{/each}}
+    </div>
+    <p>{{racecraft.tabContent}}</p>
+</div>
