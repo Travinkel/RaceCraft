@@ -24,8 +24,8 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "3.0.4", // Specify the minimum compatible version of dnd5e
-          "verified": "3.0.4" // And the latest version you've verified compatibility with
+          "minimum": "3.0.4", 
+          "verified": "3.0.4"
         }
       }
     ]
