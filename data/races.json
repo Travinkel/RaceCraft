@@ -1,0 +1,1060 @@
+{
+    "features": [
+      {
+        "name": "Minor Impact Feature",
+        "DWFS_Value": "0.1 - 0.5",
+        "Category": "M",
+        "Description": "Traits with limited mechanical impact, more for flavor or roleplay.",
+        "Example_in_DnD_5e": "A Tiefling’s Infernal Legacy providing the ‘Thaumaturgy’ cantrip.",
+        "Notes": "Enhances role-play without affecting game mechanics significantly."
+      },
+      {
+        "name": "Situational Benefit",
+        "DWFS_Value": "0.6 - 1.0",
+        "Category": "Mod",
+        "Description": "Abilities that are beneficial in specific scenarios but not consistently impactful across various game situations.",
+        "Example_in_DnD_5e": "Darkvision, advantageous in darkness but not universally applicable.",
+        "Notes": "Useful in certain situations but not universally advantageous."
+      },
+      {
+        "name": "Regularly Useful Ability",
+        "DWFS_Value": "1.1 - 1.5",
+        "Category": "Mod",
+        "Description": "Traits offering consistent utility in various situations.",
+        "Example_in_DnD_5e": "Elf's Keen Senses granting proficiency in Perception.",
+        "Notes": "Offers clear benefits in many common game scenarios."
+      },
+      {
+        "name": "Highly Influential Feature",
+        "DWFS_Value": "1.6 - 2.0",
+        "Category": "Sig",
+        "Description": "Traits providing significant advantages in a wide range of scenarios.",
+        "Example_in_DnD_5e": "Gnome's Gnome Cunning providing advantage on all INT, WIS, and CHA saving throws against magic.",
+        "Notes": "Potentially game-altering and should be rare to maintain balance."
+      },
+      {
+        "name": "Game-Changing Ability",
+        "DWFS_Value": "2.1 - 3.0",
+        "Category": "Maj",
+        "Description": "Features that can have a major impact on gameplay and character capabilities.",
+        "Example_in_DnD_5e": "The Aarakocra’s flight ability, granting substantial mobility.",
+        "Notes": "Should be rare and carefully balanced with other traits to maintain overall game balance."
+      },
+      {
+        "name": "Negative Impact Feature",
+        "DWFS_Value": "-0.5 - -1.0",
+        "Category": "Negative",
+        "Description": "Traits that represent a drawback or challenge for the character.",
+        "Example_in_DnD_5e": "Sunlight Sensitivity found in races like Drow.",
+        "Notes": "These traits add depth and complexity to characters but should be offset by positive traits."
+      }],
+    "ASI_Features": [
+      {
+        "name": "ASI -2",
+        "DWFS_Value": "-1.5",
+        "Category": "Negative",
+        "Description": "A significant reduction in an ability score.",
+        "Example_in_DnD_5e": "A custom race with a drawback in Intelligence for lore reasons.",
+        "Notes": "Major drawbacks should be rare and balanced with significant advantages."
+      },
+      {
+        "name": "ASI -1",
+        "DWFS_Value": "-0.75",
+        "Category": "Negative",
+        "Description": "A minor decrease in an ability score, indicating a weakness.",
+        "Example_in_DnD_5e": "A homebrew race with a slight penalty in Charisma due to its reclusive nature.",
+        "Notes": "Minor penalties add depth but should not be overly penalizing."
+      },
+      {
+        "name": "ASI +1",
+        "DWFS_Value": "1.2",
+        "Category": "Mod",
+        "Description": "A moderate increase in an ability score.",
+        "Example_in_DnD_5e": "A custom race designed for agility, with a +1 bonus to Dexterity.",
+        "Notes": "Common among many races, providing a boost without overpowering."
+      },
+      {
+        "name": "Choice of ASI +1",
+        "DWFS_Value": "1.5",
+        "Category": "Mod",
+        "Description": "Flexibility in choosing which ability score to increase.",
+        "Example_in_DnD_5e": "A versatile homebrew race allowing a choice of +1 to any ability score.",
+        "Notes": "Flexibility in choice makes this more valuable."
+      },
+      {
+        "name": "ASI +2",
+        "DWFS_Value": "2.0",
+        "Category": "Sig",
+        "Description": "A substantial increase in a key ability score.",
+        "Example_in_DnD_5e": "A race with an affinity for strength, gaining a +2 bonus to Strength.",
+        "Notes": "Significant boosts should be carefully balanced with other traits."
+      },
+      {
+        "name": "ASI +3",
+        "DWFS_Value": "2.5",
+        "Category": "Maj",
+        "Description": "An exceptional boost to a specific ability score.",
+        "Example_in_DnD_5e": "A race exceptionally adept in Wisdom, receiving a +3 bonus.",
+        "Notes": "Rare and should be offset by other balancing factors."
+      },
+      {
+        "name": "ASI +4",
+        "DWFS_Value": "3.0",
+        "Category": "Maj",
+        "Description": "An extraordinary increase in an ability score.",
+        "Example_in_DnD_5e": "A legendary race deeply connected to magic, with a +4 to Intelligence.",
+        "Notes": "Extremely rare and should be carefully considered for balance."
+      },
+      {
+        "name": "All ASI +1",
+        "DWFS_Value": "2.5",
+        "Category": "Maj",
+        "Description": "A balanced increase across all ability scores.",
+        "Example_in_DnD_5e": "A well-rounded custom race that gets +1 to all ability scores.",
+        "Notes": "Offers versatility at the cost of specialization; rare in standard races."
+      }],
+        "Language_Features": [
+          {
+            "name": "Common & 1 language",
+            "DWFS_Value": "0.0",
+            "Category": "M",
+            "Description": "Standard language proficiency.",
+            "Example_in_DnD_5e": "Most races with Common and one racial language.",
+            "Notes": "Basic communication ability, standard for many races."
+          },
+          {
+            "name": "Common & 2 or 3 languages",
+            "DWFS_Value": "0.5",
+            "Category": "M",
+            "Description": "Proficiency in multiple languages.",
+            "Example_in_DnD_5e": "A race known for its linguistic diversity.",
+            "Notes": "Slightly more valuable due to added versatility in communication."
+          },
+          {
+            "name": "Choice of Language",
+            "DWFS_Value": "0.6",
+            "Category": "M",
+            "Description": "Flexibility in choosing an additional language.",
+            "Example_in_DnD_5e": "A race with adaptable linguists.",
+            "Notes": "Flexibility in choice adds value."
+          },
+          {
+            "name": "Speak with small beasts",
+            "DWFS_Value": "0.8",
+            "Category": "Mod",
+            "Description": "Ability to communicate with small animals.",
+            "Example_in_DnD_5e": "A race with a close bond to nature.",
+            "Notes": "Offers unique role-playing and information-gathering opportunities."
+          },
+          {
+            "name": "30 foot Telepathy with language barrier",
+            "DWFS_Value": "1.5",
+            "Category": "Sig",
+            "Description": "Telepathic communication within a limited range, bypassing language.",
+            "Example_in_DnD_5e": "A race with innate telepathic abilities.",
+            "Notes": "Significant advantage in communication, especially in stealth or negotiation scenarios."
+          }
+        ],
+        "Skill_Features": [
+            {
+              "name": "Tool (or choice thereof) proficiency",
+              "DWFS_Value": "0.4",
+              "Category": "M",
+              "Description": "Proficiency in a specific tool or choice of tool.",
+              "Example_in_DnD_5e": "Dwarves with proficiency in smith's tools.",
+              "Notes": "Useful for specific tasks and role-play situations, but generally limited in application."
+            },
+            {
+              "name": "Skill proficiency",
+              "DWFS_Value": "0.7",
+              "Category": "Mod",
+              "Description": "Proficiency in a specific skill.",
+              "Example_in_DnD_5e": "Elves with proficiency in Perception.",
+              "Notes": "Valuable for a wide range of situations, enhancing a key aspect of character capability."
+            },
+            {
+              "name": "Choice of Skill Proficiency",
+              "DWFS_Value": "1.0",
+              "Category": "Mod",
+              "Description": "Flexibility in choosing which skill to be proficient in.",
+              "Example_in_DnD_5e": "Half-Elves with the choice of any skill.",
+              "Notes": "The flexibility of choice adds significant value."
+            },
+            {
+              "name": "Choice of Two Skill Proficiencies",
+              "DWFS_Value": "1.5",
+              "Category": "Sig",
+              "Description": "Choice of two skills to gain proficiency in.",
+              "Example_in_DnD_5e": "Rogues with multiple skill proficiencies.",
+              "Notes": "Greatly enhances versatility and adaptability of the character."
+            },
+            {
+              "name": "Expertise on rare subset of a skill",
+              "DWFS_Value": "0.6",
+              "Category": "Mod",
+              "Description": "Expertise in a rare or less commonly used subset of a skill.",
+              "Example_in_DnD_5e": "Bards with expertise in a specific instrument.",
+              "Notes": "Niche but can be highly effective in the right context."
+            },
+            {
+              "name": "Expertise on subset of a skill",
+              "DWFS_Value": "1.0",
+              "Category": "Mod",
+              "Description": "Expertise in a more commonly used subset of a skill.",
+              "Example_in_DnD_5e": "Rogues with expertise in Stealth or Thieves' Tools.",
+              "Notes": "Provides a significant advantage in specific areas."
+            },
+            {
+              "name": "Skill Proficiency and Expertise",
+              "DWFS_Value": "1.8",
+              "Category": "Sig",
+              "Description": "Combination of skill proficiency and expertise in that skill.",
+              "Example_in_DnD_5e": "Bards with expertise in a chosen skill.",
+              "Notes": "Offers a substantial advantage in the chosen skill area."
+            }
+          ],
+          "Magic_Features": [
+            {
+              "name": "Cantrip",
+              "DWFS_Value": "1.0",
+              "Category": "Mod",
+              "Description": "Gain one cantrip from a specific spell list.",
+              "Example_in_DnD_5e": "High Elves' ability to learn one wizard cantrip.",
+              "Notes": "Provides a magical ability usable at will, enhancing versatility."
+            },
+            {
+              "name": "Choice of Cantrip",
+              "DWFS_Value": "1.2",
+              "Category": "Mod",
+              "Description": "Choose one cantrip from a specified list.",
+              "Example_in_DnD_5e": "Tieflings' 'Infernal Legacy' granting the 'Thaumaturgy' cantrip.",
+              "Notes": "The freedom to choose a cantrip adds extra value."
+            },
+            {
+              "name": "Spellcasting (1st Level) at 3rd Level, 1/day",
+              "DWFS_Value": "1.5",
+              "Category": "Sig",
+              "Description": "Cast a 1st-level spell once per day at 3rd level.",
+              "Example_in_DnD_5e": "Drow's 'Drow Magic' trait allowing them to cast 'Faerie Fire' at 3rd level.",
+              "Notes": "Access to spellcasting, even if limited, provides significant utility."
+            },
+            {
+              "name": "Spellcasting (2nd Level) at 3rd Level, 1/day",
+              "DWFS_Value": "1.8",
+              "Category": "Sig",
+              "Description": "Cast a 2nd-level spell once per day at 3rd level.",
+              "Example_in_DnD_5e": "A homebrew race with the ability to cast a 2nd-level spell once per day.",
+              "Notes": "Higher level spells offer greater utility and power."
+            },
+            {
+              "name": "Spellcasting (1st Level) 1/day",
+              "DWFS_Value": "1.4",
+              "Category": "Mod",
+              "Description": "Cast a 1st-level spell once per day.",
+              "Example_in_DnD_5e": "Genasi's 'Elemental Gift' allowing casting of a spell like 'Levitate' once per day.",
+              "Notes": "Daily spellcasting, even at 1st level, can be a game-changer in many scenarios."
+            },
+            {
+              "name": "Spellcasting (2nd Level) 1/day",
+              "DWFS_Value": "1.7",
+              "Category": "Sig",
+              "Description": "Cast a 2nd-level spell once per day.",
+              "Example_in_DnD_5e": "A custom race with the ability to cast a 2nd-level spell daily.",
+              "Notes": "Offers more powerful magical options on a daily basis."
+            },
+            {
+              "name": "Choice of Spell (1/day)",
+              "DWFS_Value": "1.9",
+              "Category": "Sig",
+              "Description": "Choose a spell to cast once per day from a specified list.",
+              "Example_in_DnD_5e": "Triton's 'Guardians of the Depths' trait allowing them to cast 'Fog Cloud' or 'Gust of Wind'.",
+              "Notes": "The choice adds versatility, making this trait more valuable."
+            },
+            {
+              "name": "Innate Spellcasting (3rd Level)",
+              "DWFS_Value": "2.1",
+              "Category": "Maj",
+              "Description": "Innate ability to cast a 3rd-level spell once per day.",
+              "Example_in_DnD_5e": "Aasimar's 'Radiant Soul' ability to cast 'Daylight'.",
+              "Notes": "Access to a higher-level spell on a daily basis significantly enhances a character's abilities."
+            }
+          ],
+            "Resistances": [
+              {
+                "name": "One Rare Resistance",
+                "DWFS_Value": "1.2 - 1.4",
+                "Category": "Mod",
+                "Description": "Resistance to a damage type that is rarely encountered.",
+                "Example_in_DnD_5e": "Resistance to psychic damage.",
+                "Notes": "Valuable in specific scenarios; rarity of the damage type considered in the value."
+              },
+              {
+                "name": "One Medium Resistance",
+                "DWFS_Value": "1.5 - 1.7",
+                "Category": "Sig",
+                "Description": "Resistance to a damage type that is moderately common.",
+                "Example_in_DnD_5e": "Resistance to fire damage.",
+                "Notes": "Provides significant advantage in many combat situations."
+              },
+              {
+                "name": "One Common Resistance",
+                "DWFS_Value": "1.8 - 2.0",
+                "Category": "Sig",
+                "Description": "Resistance to a damage type frequently encountered in the game.",
+                "Example_in_DnD_5e": "Resistance to bludgeoning, piercing, and slashing from nonmagical attacks.",
+                "Notes": "Highly beneficial due to the commonality of the damage type."
+              },
+              {
+                "name": "One Nonmagical Physical Resistance",
+                "DWFS_Value": "2.1 - 2.3",
+                "Category": "Maj",
+                "Description": "Resistance to one of the physical damage types (bludgeoning, piercing, slashing) from nonmagical attacks.",
+                "Example_in_DnD_5e": "Resistance to slashing from nonmagical attacks.",
+                "Notes": "Extremely valuable in combat due to the frequency of physical attacks in most campaigns."
+              }
+            ],
+            "Vulnerabilities": [
+              {
+                "name": "One Rare Vulnerability",
+                "DWFS_Value": "-1.2 to -1.4",
+                "Category": "Negative",
+                "Description": "Vulnerability to a damage type that is rarely encountered.",
+                "Example_in_DnD_5e": "Vulnerability to psychic damage.",
+                "Notes": "Major drawback but less impactful due to the rarity of the damage type."
+              },
+              {
+                "name": "One Medium Vulnerability",
+                "DWFS_Value": "-1.5 to -1.7",
+                "Category": "Negative",
+                "Description": "Vulnerability to a damage type that is moderately common.",
+                "Example_in_DnD_5e": "Vulnerability to fire damage.",
+                "Notes": "Significantly increases the danger in many combat scenarios due to the moderate frequency of the damage type."
+              },
+              {
+                "name": "One Common Vulnerability",
+                "DWFS_Value": "-1.8 to -2.0",
+                "Category": "Negative",
+                "Description": "Vulnerability to a damage type frequently encountered in the game.",
+                "Example_in_DnD_5e": "Vulnerability to bludgeoning damage.",
+                "Notes": "Highly detrimental due to the commonality of the damage type in combat."
+              },
+              {
+                "name": "One Physical Vulnerability",
+                "DWFS_Value": "-2.1 to -2.3",
+                "Category": "Major Negative",
+                "Description": "Vulnerability to one of the physical damage types (bludgeoning, piercing, slashing).",
+                "Example_in_DnD_5e": "Vulnerability to slashing damage.",
+                "Notes": "Extremely hazardous in combat due to the frequency of physical attacks in most campaigns."
+              }
+            ],
+            "Movement": [
+              {
+                "name": "20 ft speed",
+                "DWFS_Value": "-0.8 to -1.0",
+                "Category": "Negative",
+                "Description": "Below-average base walking speed.",
+                "Example_in_DnD_5e": "A race with naturally slower movement.",
+                "Notes": "Impacts mobility significantly, potentially hindering exploration and positioning in combat."
+              },
+              {
+                "name": "25 ft speed",
+                "DWFS_Value": "-0.4 to -0.6",
+                "Category": "Negative",
+                "Description": "Slightly below-average base walking speed.",
+                "Example_in_DnD_5e": "Dwarves and Halflings with a 25 ft speed.",
+                "Notes": "Minor impact on mobility; can affect tactical movement in combat and exploration."
+              },
+              {
+                "name": "30 ft speed",
+                "DWFS_Value": "0.0",
+                "Category": "M",
+                "Description": "Average base walking speed for most races.",
+                "Example_in_DnD_5e": "Humans and Elves with a 30 ft speed.",
+                "Notes": "Standard movement speed, no additional value or drawback."
+              },
+              {
+                "name": "35 ft speed",
+                "DWFS_Value": "0.4 to 0.6",
+                "Category": "Mod",
+                "Description": "Above-average base walking speed.",
+                "Example_in_DnD_5e": "Wood Elves with a 35 ft speed.",
+                "Notes": "Provides a tactical advantage in various situations, particularly in combat and exploration."
+              },
+              {
+                "name": "40 ft speed",
+                "DWFS_Value": "0.7 to 0.9",
+                "Category": "Mod",
+                "Description": "Significantly above-average base walking speed.",
+                "Example_in_DnD_5e": "A race known for its swiftness.",
+                "Notes": "Offers notable tactical and exploratory advantages."
+              },
+              {
+                "name": "30 ft climb speed",
+                "DWFS_Value": "0.6 to 0.8",
+                "Category": "Mod",
+                "Description": "Ability to climb at a speed of 30 feet.",
+                "Example_in_DnD_5e": "A race adept at climbing, like Tabaxi.",
+                "Notes": "Enhances mobility in vertical environments, offering unique tactical options."
+              },
+              {
+                "name": "Spider Climb",
+                "DWFS_Value": "1.0 to 1.2",
+                "Category": "Sig",
+                "Description": "Ability to climb difficult surfaces, including upside down.",
+                "Example_in_DnD_5e": "Races with innate climbing abilities.",
+                "Notes": "Provides significant exploration and combat advantages in environments with climbable surfaces."
+              },
+              {
+                "name": "30 ft swim speed",
+                "DWFS_Value": "0.5 to 0.7",
+                "Category": "Mod",
+                "Description": "Ability to swim at a speed of 30 feet.",
+                "Example_in_DnD_5e": "Tritons or other aquatic races.",
+                "Notes": "Enhances mobility in aquatic environments, useful in specific scenarios."
+              },
+              {
+                "name": "Feline Agility",
+                "DWFS_Value": "0.6 to 0.8",
+                "Category": "Mod",
+                "Description": "Temporary boost to speed under certain conditions.",
+                "Example_in_DnD_5e": "Tabaxi's Feline Agility trait.",
+                "Notes": "Offers a burst of speed, beneficial in both combat and exploration."
+              },
+              {
+                "name": "Aggressive",
+                "DWFS_Value": "0.7 to 0.9",
+                "Category": "Mod",
+                "Description": "Ability to move towards an enemy as a bonus action.",
+                "Example_in_DnD_5e": "Orcs with the Aggressive trait.",
+                "Notes": "Useful for closing distances in combat, enhancing offensive capabilities."
+              },
+              {
+                "name": "Not Slowed by Armor",
+                "DWFS_Value": "0.5 to 0.7",
+                "Category": "Mod",
+                "Description": "Ability to maintain speed despite wearing heavier armor.",
+                "Example_in_DnD_5e": "Dwarves' speed not reduced by heavy armor.",
+                "Notes": "Allows for tactical flexibility in armor choice without sacrificing mobility."
+              },
+              {
+                "name": "Ignore Rare type of Rough Terrain",
+                "DWFS_Value": "0.3 to 0.5",
+                "Category": "M",
+                "Description": "Ability to move through specific types of difficult terrain.",
+                "Example_in_DnD_5e": "Races with specific environmental adaptions.",
+                "Notes": "Useful in certain environmental conditions, providing a situational advantage."
+              },
+              {
+                "name": "Ignore Common type of Rough Terrain",
+                "DWFS_Value": "0.6 to 0.8",
+                "Category": "Mod",
+                "Description": "Ability to move through commonly encountered difficult terrain.",
+                "Example_in_DnD_5e": "Races with broader environmental adaptions.",
+                "Notes": "More broadly applicable than rare terrain adaptions, offering frequent utility."
+              },
+              {
+                "name": "Ignore non-magical Rough Terrain",
+                "DWFS_Value": "0.9 to 1.1",
+                "Category": "Sig",
+                "Description": "Unhindered movement through all non-magical difficult terrain.",
+                "Example_in_DnD_5e": "A race exceptionally adept at traversing rough terrain.",
+                "Notes": "Provides a significant advantage in many exploration and combat scenarios."
+              }
+            ],
+            "Flight": [
+              {
+                "name": "Standard Fly 30",
+                "DWFS_Value": "2.0 - 2.2",
+                "Category": "Maj",
+                "Description": "Base flying speed of 30 feet.",
+                "Example_in_DnD_5e": "Aarakocra and other flying races.",
+                "Notes": "Provides significant tactical and exploration advantages, especially in open environments."
+              },
+              {
+                "name": "Hover",
+                "DWFS_Value": "2.3 - 2.5",
+                "Category": "Maj",
+                "Description": "Ability to hover in place while flying.",
+                "Example_in_DnD_5e": "Creatures with hovering capability.",
+                "Notes": "Adds versatility to flying, useful in combat and specific scenarios."
+              },
+              {
+                "name": "Plus 5 ft fly speed",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Incremental increase in flying speed by 5 feet.",
+                "Example_in_DnD_5e": "Enhanced speed for certain races.",
+                "Notes": "Minor improvement over standard flying speeds."
+              },
+              {
+                "name": "Plus 10 ft fly speed",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Incremental increase in flying speed by 10 feet.",
+                "Example_in_DnD_5e": "Enhanced speed for certain races.",
+                "Notes": "Notable improvement over standard flying speeds."
+              },
+              {
+                "name": "Always On Feather Fall",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Innate ability resembling the 'Feather Fall' spell.",
+                "Example_in_DnD_5e": "Races with inherent slow fall ability.",
+                "Notes": "Provides a significant safety net against falling."
+              },
+              {
+                "name": "Must land at End of Turn",
+                "DWFS_Value": "-0.5 - -0.7",
+                "Category": "Negative",
+                "Description": "Requirement to land at the end of each turn when flying.",
+                "Example_in_DnD_5e": "Restriction for certain flying races.",
+                "Notes": "Limits the utility of flight in prolonged aerial situations."
+              },
+              {
+                "name": "Unrestricted Fly 30",
+                "DWFS_Value": "2.6 - 2.8",
+                "Category": "Maj",
+                "Description": "Unrestricted flying speed of 30 feet.",
+                "Example_in_DnD_5e": "Powerful flying creatures.",
+                "Notes": "Offers substantial freedom and tactical advantage in movement."
+              }
+            ],
+            "Senses": [
+              {
+                "name": "Sunlight Sensitivity",
+                "DWFS_Value": "-1.0 - -1.2",
+                "Category": "Negative",
+                "Description": "Disadvantage in sunlight on sight-based checks.",
+                "Example_in_DnD_5e": "Drow and other light-sensitive races.",
+                "Notes": "Major drawback in bright environments, impacting combat and perception."
+              },
+              {
+                "name": "Darkvision 30",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Darkvision up to 30 feet.",
+                "Example_in_DnD_5e": "Races with limited darkvision.",
+                "Notes": "Useful in low-light conditions, less effective than standard Darkvision."
+              },
+              {
+                "name": "Darkvision +60",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Extended range for Darkvision, up to 60 feet.",
+                "Example_in_DnD_5e": "Most races with Darkvision.",
+                "Notes": "Standard Darkvision range, beneficial in darkness."
+              },
+              {
+                "name": "Darkvision 60",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Darkvision up to 60 feet.",
+                "Example_in_DnD_5e": "Standard Darkvision for many races.",
+                "Notes": "Useful in low-light conditions."
+              },
+              {
+                "name": "Darkvision 120",
+                "DWFS_Value": "0.9 - 1.1",
+                "Category": "Sig",
+                "Description": "Darkvision up to 120 feet.",
+                "Example_in_DnD_5e": "Superior darkvision of some races.",
+                "Notes": "Enhanced range, very useful in darkness."
+              },
+              {
+                "name": "Blindsight to 30ft",
+                "DWFS_Value": "1.2 - 1.4",
+                "Category": "Sig",
+                "Description": "Blindsight up to 30 feet.",
+                "Example_in_DnD_5e": "Races or creatures with blindsight.",
+                "Notes": "Provides significant advantage in detecting creatures and objects without relying on sight."
+              },
+              {
+                "name": "Blindsight to 30ft, blind beyond",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Blindsight up to 30 feet, but cannot see beyond.",
+                "Example_in_DnD_5e": "Creatures with limited blindsight.",
+                "Notes": "Useful in close quarters but limiting for long-range perception."
+              }
+            ],
+            "Advantages": [
+              {
+                "name": "Advantage on a rare roll",
+                "DWFS_Value": "0.2 - 0.4",
+                "Category": "M",
+                "Description": "Advantage on checks or saves that rarely occur.",
+                "Example_in_DnD_5e": "Specific situational advantages.",
+                "Notes": "Useful in specific scenarios, but limited due to rarity."
+              },
+              {
+                "name": "Advantage on a situational roll",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Advantage on checks or saves in certain situations.",
+                "Example_in_DnD_5e": "Advantage in favored terrain or condition.",
+                "Notes": "More broadly applicable than rare rolls, offering moderate utility."
+              },
+              {
+                "name": "Advantage on a common roll",
+                "DWFS_Value": "0.8 - 1.0",
+                "Category": "Sig",
+                "Description": "Advantage on frequently occurring checks or saves.",
+                "Example_in_DnD_5e": "Advantage on common skill checks.",
+                "Notes": "Highly beneficial in regularly encountered situations."
+              },
+              {
+                "name": "Advantage on a very common roll or set of rolls",
+                "DWFS_Value": "1.1 - 1.3",
+                "Category": "Sig",
+                "Description": "Advantage on checks or saves that occur very frequently.",
+                "Example_in_DnD_5e": "Advantage on all checks related to a key ability.",
+                "Notes": "Extremely useful, impacting a wide range of common gameplay situations."
+              }
+            ],
+            "Weapons": [
+              {
+                "name": "Weapon Training",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Proficiency with a specific category of weapons.",
+                "Example_in_DnD_5e": "Dwarves with proficiency in axes and hammers.",
+                "Notes": "Useful for specific combat styles, adding versatility but not overpowering."
+              },
+              {
+                "name": "2 Simple Weapons of Choice",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Choose proficiency with any two simple weapons.",
+                "Example_in_DnD_5e": "Races with flexible weapon proficiencies.",
+                "Notes": "Provides flexibility in weapon choice, beneficial for certain roles."
+              },
+              {
+                "name": "2 Martial Weapons of Choice",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Choose proficiency with any two martial weapons.",
+                "Example_in_DnD_5e": "Races with martial weapon training.",
+                "Notes": "More valuable than simple weapon proficiency, offering access to more powerful weapons."
+              }
+            ],
+            "Unarmed_Strikes": [
+              {
+                "name": "1d4 unarmed strike",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "Mod",
+                "Description": "Unarmed strikes deal 1d4 damage.",
+                "Example_in_DnD_5e": "Monk's martial arts ability.",
+                "Notes": "Enhances unarmed combat effectiveness, useful for certain classes or in specific scenarios."
+              },
+              {
+                "name": "1d6 unarmed strike",
+                "DWFS_Value": "0.7 - 0.9",
+                "Category": "Mod",
+                "Description": "Unarmed strikes deal 1d6 damage.",
+                "Example_in_DnD_5e": "Races with stronger unarmed combat capabilities.",
+                "Notes": "Provides a significant advantage in unarmed combat situations."
+              },
+              {
+                "name": "1d8 unarmed strike",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Unarmed strikes deal 1d8 damage.",
+                "Example_in_DnD_5e": "Homebrew races with powerful natural weapons.",
+                "Notes": "Considerable damage for unarmed strikes, useful in many combat scenarios."
+              }
+            ],
+            "Natural_Weapons": [
+              {
+                "name": "1d4 natural weapon",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "Mod",
+                "Description": "Natural weapons deal 1d4 damage.",
+                "Example_in_DnD_5e": "Races with minor natural attacks.",
+                "Notes": "Provides an alternative to unarmed strikes, useful in specific combat scenarios."
+              },
+              {
+                "name": "1d6 natural weapon",
+                "DWFS_Value": "0.7 - 0.9",
+                "Category": "Mod",
+                "Description": "Natural weapons deal 1d6 damage.",
+                "Example_in_DnD_5e": "Races with more potent natural attacks.",
+                "Notes": "Stronger than standard unarmed strikes, offering a combat advantage."
+              },
+              {
+                "name": "1d8 natural weapon",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Natural weapons deal 1d8 damage.",
+                "Example_in_DnD_5e": "Homebrew races with powerful natural attacks.",
+                "Notes": "Significant damage for natural weapons, enhancing combat capabilities."
+              },
+              {
+                "name": "1d10 natural weapon",
+                "DWFS_Value": "1.3 - 1.5",
+                "Category": "Sig",
+                "Description": "Natural weapons deal 1d10 damage.",
+                "Example_in_DnD_5e": "Powerful monstrous races or creatures.",
+                "Notes": "High damage output for natural weapons, ideal for combat-focused characters or creatures."
+              }
+            ],
+            "Breathing": [
+              {
+                "name": "Hold Breath 15 mins",
+                "DWFS_Value": "0.2 - 0.4",
+                "Category": "M",
+                "Description": "Ability to hold breath for 15 minutes.",
+                "Example_in_DnD_5e": "Races adapted to aquatic environments.",
+                "Notes": "Useful in specific scenarios, particularly in aquatic adventures."
+              },
+              {
+                "name": "Amphibious",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Ability to breathe air and water.",
+                "Example_in_DnD_5e": "Tritons and similar races.",
+                "Notes": "Offers significant advantages in campaigns with underwater components."
+              },
+              {
+                "name": "Unending Breath",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Ability to breathe indefinitely without air.",
+                "Example_in_DnD_5e": "Races with supernatural breathing abilities.",
+                "Notes": "Useful in certain niche scenarios, offering unique exploration and survival capabilities."
+              },
+              {
+                "name": "Doesn't breath",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "Mod",
+                "Description": "Lack of need to breathe.",
+                "Example_in_DnD_5e": "Constructs or undead creatures.",
+                "Notes": "Offers immunity to effects targeting the respiratory system, useful in specific scenarios."
+              }
+            ],
+            "Natural_Armor": [
+              {
+                "name": "11+Dex armor",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Natural armor calculation resulting in 11 + Dexterity modifier.",
+                "Example_in_DnD_5e": "Races with slight natural armor.",
+                "Notes": "Slightly better than normal unarmored defense, providing a minor boost to AC."
+              },
+              {
+                "name": "12+Dex armor",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Natural armor calculation resulting in 12 + Dexterity modifier.",
+                "Example_in_DnD_5e": "Races with moderate natural armor.",
+                "Notes": "Offers a noticeable increase in AC over typical unarmored defense."
+              },
+              {
+                "name": "13+Dex armor",
+                "DWFS_Value": "0.9 - 1.1",
+                "Category": "Sig",
+                "Description": "Natural armor calculation resulting in 13 + Dexterity modifier.",
+                "Example_in_DnD_5e": "Races with significant natural armor.",
+                "Notes": "Comparable to wearing light armor without the need for actual armor."
+              },
+              {
+                "name": "AC+1",
+                "DWFS_Value": "1.2 - 1.4",
+                "Category": "Sig",
+                "Description": "Inherent bonus to Armor Class.",
+                "Example_in_DnD_5e": "Races or creatures with an innate defense bonus.",
+                "Notes": "Provides a direct and significant increase to defense, beneficial in all combat scenarios."
+              }
+            ],
+            "Size": [
+              {
+                "name": "Small",
+                "DWFS_Value": "0.0",
+                "Category": "M",
+                "Description": "Character size is classified as Small.",
+                "Example_in_DnD_5e": "Halflings, Gnomes.",
+                "Notes": "Generally no direct mechanical advantage or disadvantage, but interacts with certain game rules."
+              },
+              {
+                "name": "Powerful Build",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Characters count as one size larger for carrying capacity and weight-related considerations.",
+                "Example_in_DnD_5e": "Goliaths, Firbolgs.",
+                "Notes": "Useful for specific tasks involving strength, like lifting, carrying, and grappling."
+              },
+              {
+                "name": "Large (Combat)",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Character size is classified as Large in combat situations, affecting space control and grappling.",
+                "Example_in_DnD_5e": "Larger creatures or homebrew races.",
+                "Notes": "Significant impact in combat scenarios, especially for physical presence and control of space."
+              },
+              {
+                "name": "Large (Utility)",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Character size is Large for utility purposes, like carrying capacity, without full combat implications.",
+                "Example_in_DnD_5e": "Races with larger stature but not classified as Large in combat.",
+                "Notes": "Offers advantages in carrying capacity and related tasks, less impact in combat than full Large size."
+              }
+            ],
+            "Racial_Features_1": [
+              {
+                "name": "A Type other than Humanoid",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Character classified as a creature type other than Humanoid.",
+                "Example_in_DnD_5e": "Centaurs, who are considered Fey.",
+                "Notes": "Impacts interactions with spells and effects that target specific creature types."
+              },
+              {
+                "name": "Doesn't need to Eat",
+                "DWFS_Value": "0.2 - 0.4",
+                "Category": "M",
+                "Description": "No requirement for food consumption.",
+                "Example_in_DnD_5e": "Warforged or similar constructs.",
+                "Notes": "Useful in survival scenarios but limited in direct gameplay impact."
+              },
+              {
+                "name": "Tinker",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Ability to craft small mechanical devices.",
+                "Example_in_DnD_5e": "Rock Gnomes with Tinker trait.",
+                "Notes": "Adds versatility and creative options for problem-solving and utility."
+              },
+              {
+                "name": "Acclimatized",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Adaptation to specific environmental conditions.",
+                "Example_in_DnD_5e": "Races acclimated to extreme climates.",
+                "Notes": "Offers advantages in certain environments but limited outside those conditions."
+              },
+              {
+                "name": "Healing Hands",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Ability to heal others through a racial trait.",
+                "Example_in_DnD_5e": "Aasimar with Healing Hands.",
+                "Notes": "Provides a useful, though limited, healing ability."
+              },
+              {
+                "name": "Fey Ancestry",
+                "DWFS_Value": "0.7 - 0.9",
+                "Category": "Mod",
+                "Description": "Advantage against being charmed and immunity to magical sleep.",
+                "Example_in_DnD_5e": "Elves with Fey Ancestry.",
+                "Notes": "Offers significant advantages against certain magical effects."
+              },
+              {
+                "name": "Nimbleness",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "Mod",
+                "Description": "Ability to move through spaces of larger creatures.",
+                "Example_in_DnD_5e": "Halflings with Halfling Nimbleness.",
+                "Notes": "Enhances mobility in certain situations, particularly in combat and exploration."
+              },
+              {
+                "name": "Trance",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Reduced need for sleep and altered resting mechanics.",
+                "Example_in_DnD_5e": "Elves with Trance.",
+                "Notes": "Offers advantages in terms of watch schedules and resting, but limited direct combat or exploration impact."
+              },
+              {
+                "name": "Mimicry",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "Mod",
+                "Description": "Ability to mimic sounds and voices.",
+                "Example_in_DnD_5e": "Kenku with Mimicry.",
+                "Notes": "Useful in social interactions and deceptive strategies, though situational."
+              },
+              {
+                "name": "Fury of the Small",
+                "DWFS_Value": "0.7 - 0.9",
+                "Category": "Mod",
+                "Description": "Extra damage against larger creatures.",
+                "Example_in_DnD_5e": "Goblins with Fury of the Small.",
+                "Notes": "Provides a damage boost in combat against larger foes, situational but impactful."
+              },
+              {
+                "name": "Humanoid + Type",
+                "DWFS_Value": "-0.5 - -0.7",
+                "Category": "Negative",
+                "Description": "Considered both Humanoid and another creature type.",
+                "Example_in_DnD_5e": "Races with dual creature type classification.",
+                "Notes": "Can be a drawback as it opens up vulnerabilities to more types of effects."
+              },
+              {
+                "name": "Mask of the Wild",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Enhanced ability to hide in natural settings.",
+                "Example_in_DnD_5e": "Wood Elves with Mask of the Wild.",
+                "Notes": "Useful for stealth and ambush strategies, especially in natural environments."
+              },
+              {
+                "name": "Savage Attacks",
+                "DWFS_Value": "0.8 - 1.0",
+                "Category": "Sig",
+                "Description": "Extra damage dice on critical hits.",
+                "Example_in_DnD_5e": "Half-Orcs with Savage Attacks.",
+                "Notes": "Increases combat effectiveness, particularly in delivering critical hits."
+              },
+              {
+                "name": "Reach",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Increased reach for melee attacks.",
+                "Example_in_DnD_5e": "Bugbears with Long-Limbed.",
+                "Notes": "Significant advantage in melee combat, affecting engagement range."
+              },
+              {
+                "name": "Armor Training (Light)",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Proficiency with light armor.",
+                "Example_in_DnD_5e": "Races with inherent light armor proficiency.",
+                "Notes": "Useful for classes that don't start with this proficiency, adding versatility in armor choices."
+              },
+              {
+                "name": "Armor Training (Light and Medium)",
+                "DWFS_Value": "0.6 - 0.8",
+                "Category": "Mod",
+                "Description": "Proficiency with light and medium armor.",
+                "Example_in_DnD_5e": "Races with broader armor proficiency.",
+                "Notes": "More valuable than light armor proficiency alone, offering greater protection options."
+              },
+              {
+                "name": "Poison Resistance and Advantage",
+                "DWFS_Value": "0.7 - 0.9",
+                "Category": "Mod",
+                "Description": "Resistance to poison damage and advantage on saving throws against poison.",
+                "Example_in_DnD_5e": "Dwarves with Dwarven Resilience.",
+                "Notes": "Offers considerable protection against a common hazard in D&D."
+              },
+              {
+                "name": "Naturally Stealthy",
+                "DWFS_Value": "0.5 - 0.7",
+                "Category": "Mod",
+                "Description": "Ability to attempt to hide when obscured by larger creatures.",
+                "Example_in_DnD_5e": "Lightfoot Halflings with Naturally Stealthy.",
+                "Notes": "Beneficial for stealthy characters, providing more options for hiding."
+              },
+              {
+                "name": "Relentless Endurance",
+                "DWFS_Value": "0.8 - 1.0",
+                "Category": "Sig",
+                "Description": "Ability to avoid dropping to 0 hit points once per long rest.",
+                "Example_in_DnD_5e": "Half-Orcs with Relentless Endurance.",
+                "Notes": "Provides a significant survivability boost in combat."
+              },
+              {
+                "name": "Lucky",
+                "DWFS_Value": "1.1 - 1.3",
+                "Category": "Sig",
+                "Description": "Reroll certain dice rolls a limited number of times per day.",
+                "Example_in_DnD_5e": "Halflings with Lucky trait.",
+                "Notes": "Offers a strong advantage in key moments, affecting various rolls."
+              },
+              {
+                "name": "Toughness",
+                "DWFS_Value": "0.9 - 1.1",
+                "Category": "Sig",
+                "Description": "Increased hit points.",
+                "Example_in_DnD_5e": "Races with inherent toughness or durability.",
+                "Notes": "Directly increases survivability by boosting hit points."
+              },
+              {
+                "name": "Stone's Endurance",
+                "DWFS_Value": "0.8 - 1.0",
+                "Category": "Sig",
+                "Description": "Reduce damage taken as a reaction.",
+                "Example_in_DnD_5e": "Goliaths with Stone's Endurance.",
+                "Notes": "Offers a significant one-time damage mitigation per rest, useful in combat."
+              },
+              {
+                "name": "Breath Weapon",
+                "DWFS_Value": "1.2 - 1.4",
+                "Category": "Sig",
+                "Description": "Ability to exhale destructive energy, typically once per rest.",
+                "Example_in_DnD_5e": "Dragonborn with Breath Weapon.",
+                "Notes": "Provides an additional combat option with area effect, versatile and impactful."
+              },
+              {
+                "name": "Nimble Escape",
+                "DWFS_Value": "0.9 - 1.1",
+                "Category": "Sig",
+                "Description": "Ability to Disengage or Hide as a bonus action.",
+                "Example_in_DnD_5e": "Goblins with Nimble Escape.",
+                "Notes": "Enhances mobility and tactical options in combat, especially for hit-and-run tactics."
+              },
+              {
+                "name": "Gnome Cunning",
+                "DWFS_Value": "1.0 - 1.2",
+                "Category": "Sig",
+                "Description": "Advantage on all intelligence, wisdom, and charisma saving throws against magic.",
+                "Example_in_DnD_5e": "Gnomes with Gnome Cunning.",
+                "Notes": "Offers substantial protection against a wide range of magical effects."
+              },
+              {
+                "name": "Aasimar Transformation",
+                "DWFS_Value": "1.3 - 1.5",
+                "Category": "Maj",
+                "Description": "Access to powerful transformation abilities.",
+                "Example_in_DnD_5e": "Aasimar with racial transformations.",
+                "Notes": "Grants significant combat or utility abilities, impactful in various scenarios."
+              },
+              {
+                "name": "Pack Tactics",
+                "DWFS_Value": "1.2 - 1.4",
+                "Category": "Sig",
+                "Description": "Advantage on attack rolls against a creature if at least one of the Aasimar's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                "Example_in_DnD_5e": "Races with Pack Tactics.",
+                "Notes": "Provides a consistent combat advantage in group situations."
+              },
+              {
+                "name": "Choice of Feat",
+                "DWFS_Value": "2.0 - 2.2",
+                "Category": "Maj",
+                "Description": "Ability to select a feat at character creation.",
+                "Example_in_DnD_5e": "Variant Human with feat option.",
+                "Notes": "Grants significant flexibility and power, allowing customization of character abilities."
+              },
+              {
+                "name": "Advantage against diseases",
+                "DWFS_Value": "0.3 - 0.5",
+                "Category": "M",
+                "Description": "Advantage on saving throws against diseases.",
+                "Example_in_DnD_5e": "Races with strong constitutions or magical resistance.",
+                "Notes": "Useful in campaigns where disease is a frequent hazard, but situational."
+              },
+              {
+                "name": "Magic Resistance",
+                "DWFS_Value": "1.4 - 1.6",
+                "Category": "Maj",
+                "Description": "Advantage on saving throws against spells and other magical effects.",
+                "Example_in_DnD_5e": "Races with innate magical resistance.",
+                "Notes": "Provides a broad and powerful defense against a wide array of magical threats."
+              },
+              {
+                "name": "Fills rests with light activity instead of sleep",
+                "DWFS_Value": "0.4 - 0.6",
+                "Category": "M",
+                "Description": "Less need for traditional sleep, replaced by light activity.",
+                "Example_in_DnD_5e": "Elves with Trance ability.",
+                "Notes": "Offers advantages in terms of watch schedules and resting, but limited direct combat or exploration impact."
+              },
+              {
+                "name": "Yuan-ti Standard Delayed Magic",
+                "DWFS_Value": "1.1 - 1.3",
+                "Category": "Sig",
+                "Description": "Access to innate spellcasting abilities, typically available at higher levels.",
+                "Example_in_DnD_5e": "Yuan-ti Pureblood with innate spellcasting.",
+                "Notes": "Provides a range of magical options, enhancing versatility and utility."
+              }
+            ]
+      }      
