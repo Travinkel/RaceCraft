@@ -17,8 +17,7 @@
     "dependencies": [
       {
         "name": "dnd5e",
-        "manifest": "https://foundryvtt.com/packages/dnd5e",
-        "type": "module",
+        "type": "system",
         "version": "3.0.4"
       }
     ],
