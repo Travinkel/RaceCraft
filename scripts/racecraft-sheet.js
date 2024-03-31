@@ -37,4 +37,10 @@ class RaceCraftCharacterSheet extends ActorSheet5eCharacter {
         event.preventDefault();
         // Handle your custom tab actions here
     }
+
+    displayRaces(racesData, html) {
+        const racecraftTab = html.find('.tab[data-tab="racecraft"]');
+        // Populate racecraftTab with your races data
+      }
 }
+

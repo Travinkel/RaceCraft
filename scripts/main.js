@@ -14,6 +14,22 @@ async function loadRaces() {
     }
 }
 
+function addRaceCraftTab(app, html, data) {
+    const raceCraftTabButton = $(`<a class="item" data-tab="racecraft">RaceCraft</a>`);
+    html.find('.tabs[data-group="primary"]').append(raceCraftTabButton);
+
+    // Create the content container for the RaceCraft tab
+    const raceCraftContent = $(`
+        <div class="tab" data-tab="racecraft">
+            <!-- Content goes here -->
+            <div>Customize your racial traits here.</div>
+            </div>
+        `);
+        html.find('.sheet-body').append(raceCraftContent);
+        // Optional: Initialize any JavaScript for interative elements within your new tab
+        
+    }
+
 Hooks.once('ready', async () => {
     const racesData = await loadRaces();
     console.log("RaceCraft data loaded", racesData);
@@ -59,12 +75,10 @@ Hooks.once('init', () => {
             location.reload();
         }
     });
-
-    Actors.registerSheet("dnd5e", RaceCraftCharacterSheet, {
-        types: ["character"],
-        makeDefault: true,
-        label: "RaceCraft Character Sheet",
-    });
 });
+
+Hooks.on("renderActorSheet5eCharacter", (app, html, data) => {
+    addRaceCraftTab(app, html, data);
+  });
 
 export default loadRaces;
